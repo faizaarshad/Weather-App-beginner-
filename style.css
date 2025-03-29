@@ -1,0 +1,62 @@
+/* Reset and font styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial, sans-serif';
+    background: linear-gradient(to bottom, #87ceeb, #4682b4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  #app {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #ffa07a;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background-color: #ff7f50;
+  }
+  .weather-box {
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
