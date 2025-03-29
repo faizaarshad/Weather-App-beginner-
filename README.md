@@ -27,7 +27,7 @@ Follow these steps to get started:
 1. **Clone the Repository**  
    Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/faizaarshad/Weather-App-(beginner).git
+   git clone https://github.com/faizaarshad/WeatherApp.git
 2. **Get Your WeatherAPI Key**
    Sign up at WeatherAPI.
    Generate your API key from the WeatherAPI dashboard.
